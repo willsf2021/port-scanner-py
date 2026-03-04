@@ -18,13 +18,22 @@ To understand how network ports work at a low level — without relying on exter
 
 ## Usage
 
+- Open the file 'port_scanner.py'
+- You can change as you want the follow variables:
+```python
+    target = "192.168.3.1"
+    ports_to_scan = range(1, 1024)
+```
+- Run the script
 ```bash
-> *(fill this in when done)*
+    python3 port_scanner.py
 ```
 
 ## What I learned
 
-> *(fill this in when done)*
+> Basics of Ports and most commons protocols
+> Basics of raw sockets in Python
+> Each protocol is represented by a differente methodo from sockets (ex: SOCK_DGRAM, SOCK_STREAM)
 
 ---
 
